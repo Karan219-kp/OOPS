@@ -1,7 +1,9 @@
-#include<iosream>
+#include<iostream>
 #include<conio.h>
+using namespace std;
 class number
 {
+  public:
   int a,b;
 }
 void getdata()
