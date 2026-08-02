@@ -4,16 +4,16 @@ using namespace std;
 // Base class
 class A {
 public:
-    void sound() {
-        cout << "Animal makes a sound." << endl;
+    void showdata() {
+        cout << "I'm Karan B Prajapati !" << endl;
     }
 };
 
 // Derived class
 class B : public A {
 public:
-    void bark() {
-        cout << "Dog barks." << endl;
+    void display() {
+        cout << "Now I'm Studying" << endl;
     }
 };
 
@@ -21,10 +21,10 @@ int main() {
     B o;
 
     // Calling base class function
-    o.sound();
+    o.showdata();
 
     // Calling derived class function
-    o.bark();
+    o.display();
 
     return 0;
 }
